@@ -1,0 +1,79 @@
+.language-selector {
+    display: flex;
+
+    button {
+        font-family: 'Courier New', Courier, monospace;
+        font-size: 0.75rem;
+    }
+
+    &-select {
+        background-color: transparent;
+        padding: 1rem;
+        border: 1px solid black;
+
+        .chevron {
+            &-item {
+                margin-left: 0.5rem;
+                border-style: solid;
+                border-width: 1px 1px 0 0;
+                content: '';
+                display: inline-block;
+                height: 0.45em;
+                left: 0.15em;
+                position: relative;
+                top: 0.25em;
+                transform: rotate(-45deg);
+                vertical-align: top;
+                width: 0.45em;
+            }
+        }
+
+        .down {
+            top: 0;
+            transform: rotate(135deg);
+        }
+    }
+
+    @media(max-width: 670px) {
+        .open {
+            background-color: #cfcdcd8f;
+            .language-selector-select-content {
+                display: none;
+            }
+        }
+    }
+
+    .closed:hover {
+        background-color: #cfcdcd8f;
+    }
+
+    &-opt {
+        @media(min-width: 671px) {
+            padding: 1rem;
+        }
+
+        // buttons
+        button {
+            background-color: transparent;
+            padding: 0.5rem;
+            width: 100%;
+            border: none;
+
+            &:hover {
+                background-color: #cfcdcd8f;
+            }
+        }
+
+        &-2 {
+            border: none;
+        }
+    }
+
+    // mobile configuration. Turns dropdown full-width
+    @media(max-width: 670px) {
+        width: 100%;
+        button {
+            width: 100%;
+        }
+    }
+}

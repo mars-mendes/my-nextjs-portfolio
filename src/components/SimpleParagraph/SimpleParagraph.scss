@@ -1,0 +1,10 @@
+.simple-paragraph {
+    display: flex;
+    width: 45vw;
+    &-text{
+        margin-bottom: 0;
+    }
+    @media(max-width: 670px){
+        width: 80vw;
+    }
+}

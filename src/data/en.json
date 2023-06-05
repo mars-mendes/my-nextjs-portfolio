@@ -1,0 +1,10 @@
+{
+    "nav": {
+        "dropdown": "Select your language"
+    },
+    "text": [
+        "Hi there! My name's Mars, I'm a 24yo Digital Experiences Developer at IBM and a UX/UI student (EBAC).",
+        "I've been working for the last 4 years as a dev, starting my career as an intern, mostly focused on marketing web pages creation/maintenance and later, had the opportunity to become a full-time dev. Now, my responsibilities are not only related to development, but I'm also part of several communication and education initiatives and I've also been working with experienced designers in UX research.",
+        "My technical skills are focused in React and Next.js, but I'm also involved in researches using XR tech such as A-frame, Adobe Aero and Unity."
+    ]
+}

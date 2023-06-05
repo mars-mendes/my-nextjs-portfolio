@@ -1,0 +1,11 @@
+.main {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6rem;
+  .content-wrapper {
+    margin: 0 auto;
+  }
+}

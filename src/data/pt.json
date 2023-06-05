@@ -1,0 +1,11 @@
+{
+    "nav": {
+        "dropdown": "Selecione o idioma"
+    },
+    "text": [
+        "Oie! Eu sou o Mars, tenho 24 anos, trabalho como Digital Experiences Developer na IBM e estudo UX/UI na EBAC.",
+        "Trabalho como dev há 4 anos, começando minha carreira na IBM como estagiário - com atividades focadas principalmente na criação/manutenção de páginas de marketing - depois tendo a oportunidade de efetivação.",  
+        "Hoje, minhas responsabilidades vão além do desenvolvimento de páginas e aplicações, também participo de diversas iniciativas de educação e comunicação e tenho acompanhado designers experientes em processos de UX research",
+        "Meus conhecimentos técnicos são focados em React e Next.js, mas também participei de desenvolvimento de POCs de XR utilizando tecnologias como A-frame, Adobe Aero e Unity."
+    ]
+}

@@ -1,0 +1,165 @@
+.nav {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    position: absolute;
+    height: auto;
+    top: 0;
+    left: 0;
+    min-width: 100vw;
+
+    &-welcome {
+        display: flex;
+        margin: 0 auto;
+        flex-direction: row;
+        padding: 0.5rem;
+
+        h1 {
+            position: relative;
+            font-weight: 100;
+            bottom: 15px;
+        }
+
+        img {
+            height: 2.5rem;
+            margin-right: 5px;
+        }
+
+        @media(max-width: 670px) {
+            display: none;
+        }
+
+        &-desktop {
+            &-icon {
+                position: absolute;
+                top: 25px;
+                right: 20px;
+
+                .bar1,
+                .bar2,
+                .bar3 {
+                    width: 25px;
+                    height: 2px;
+                    background-color: rgba(0, 0, 0, 0.456);
+                    margin: 4px 0;
+                }
+
+                /* Rotate first bar */
+                .change {
+                    &.bar1 {
+                        transform: translate(0, 6px) rotate(-45deg);
+                    }
+
+                    /* Fade out the second bar */
+                    &.bar2 {
+                        opacity: 0;
+                    }
+
+                    /* Rotate last bar */
+                    &.bar3 {
+                        transform: translate(0, -6.1px) rotate(45deg);
+                    }
+                }
+            }
+        }
+        .nav-language-selector {
+            position: absolute;
+            top: 0.5rem;
+            right: 0.5rem;
+            // width: 100%;
+        }
+    }
+
+    &-welcome-mobile {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        padding: 0.5rem;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.359);
+
+        &-icon {
+            position: absolute;
+            top: 25px;
+            right: 20px;
+
+            div {
+                width: 25px;
+                height: 2px;
+                background-color: rgba(0, 0, 0, 0.456);
+                margin: 4px 0;
+            }
+        }
+
+        h1 {
+            font-weight: 100;
+            font-size: 1.6rem;
+        }
+
+        img {
+            position: relative;
+            top: 10px;
+            height: 2rem;
+            padding-right: 10px;
+        }
+
+        @media(min-width: 671px) {
+            display: none;
+        }
+    }
+
+    &-language-selector {
+        @media(min-width:671px) {
+            width: auto;
+            right: 10px;
+            top: 10px;
+        }
+    }
+
+    &-hidden-mobile {
+        @media(max-width: 670px) {
+            display: none;
+        }
+    }
+
+    // typewriter effect **DISABLED didn't look that much cool anymore
+    .typewriter {
+        p {
+            overflow: hidden;
+            /* Ensures the content is not revealed until the animation */
+            border-right: .15em solid black;
+            /* The typwriter cursor */
+            white-space: nowrap;
+            /* Keeps the content on a single line */
+            margin: 0 auto;
+            /* Gives that scrolling effect as the typing happens */
+            letter-spacing: .15em;
+            /* Adjust as needed */
+            animation:
+                typing 3.5s steps(25),
+                blink-caret .75s step-end infinite;
+        }
+
+        /* The typing effect */
+        @keyframes typing {
+            from {
+                width: 0
+            }
+
+            to {
+                width: 100%
+            }
+        }
+
+        /* The typewriter cursor effect */
+        @keyframes blink-caret {
+
+            from,
+            to {
+                border-color: transparent
+            }
+
+            50% {
+                border-color: rgb(0, 0, 0);
+            }
+        }
+    }
+}
