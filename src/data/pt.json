@@ -3,9 +3,11 @@
         "dropdown": "Selecione o idioma"
     },
     "text": [
-        "Oie! Eu sou o Mars, tenho 24 anos, trabalho como Digital Experiences Developer na IBM e estudo UX/UI na EBAC.",
-        "Trabalho como dev há 4 anos, começando minha carreira na IBM como estagiário - com atividades focadas principalmente na criação/manutenção de páginas de marketing - depois tendo a oportunidade de efetivação.",  
-        "Hoje, minhas responsabilidades vão além do desenvolvimento de páginas e aplicações, também participo de diversas iniciativas de educação e comunicação e tenho acompanhado designers experientes em processos de UX research",
-        "Meus conhecimentos técnicos são focados em React e Next.js, mas também participei de desenvolvimento de POCs de XR utilizando tecnologias como A-frame, Adobe Aero e Unity."
+        "Oie! Meu nome é Mars (ele/dele), tenho 24 anos e sou Digital Experiences Developer na IBM e Estudante de UX/UI (EBAC).",
+        "Tenho trabalhado como desenvolvedor nos últimos 4 anos, iniciando minha carreira como estagiário e focando principalmente na criação e manutenção de páginas da web de marketing. Ao longo do caminho, tive a oportunidade de me tornar um desenvolvedor em tempo integral. Atualmente, minhas responsabilidades vão além da codificação, pois participo ativamente de diferentes projetos de comunicação e educação e também tenho trabalhado com designers experientes em pesquisa de UX.",  
+        "Minha base técnica inclui expertise em JavaScript, React, Next.js, TypeScript e Angular, e recentemente tenho expandido meus conhecimentos participando de projetos de pesquisa que exploram tecnologias de XR como A-frame, Adobe Aero e Unity. Também possuo certificações em Design Thinking e Metodologias Ágeis (Agile).",
+        "Dentro da minha equipe, trabalho na iniciativa de influenciadores, onde desenvolvemos campanhas, atividades e mídias para engajar as pessoas internamente. Também faço parte de uma iniciativa que conecta a liderança com suas equipes, onde discutimos educação, feedback e outros aspectos relacionados às práticas ágeis.",
+        "Recentemente, tive a ótima oportunidade de trabalhar na melhoria de um asset IBM com o objetivo de garantir um processo de tradução rápido e escalável e contribuí para a página do evento IBM Think. Além disso, estou envolvido em dois projetos de pesquisa de UX, onde estamos definindo a jornada do usuário: crio scripts para entrevistas com usuários e stakeholders e facilito sessões de Design Thinking.",
+        "Se precisar de mais informações ou tiver alguma dúvida, sinta-se à vontade para entrar em contato comigo."
     ]
 }

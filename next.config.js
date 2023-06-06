@@ -3,10 +3,14 @@
 /**
  * @type {import('next').NextConfig}
  **/
+const path = require('path');
+
 const nextConfig = {
     output: 'export',
-    basePath: '/my-nextjs-portfolio',
-    distDir: 'dist'
+    assetPrefix: "https://mars-mendes.github.io/my-nextjs-portfolio/",
+    sassOptions: {
+        includePaths: [path.join(__dirname, 'styles')],
+      },
   }
   
   module.exports = nextConfig
